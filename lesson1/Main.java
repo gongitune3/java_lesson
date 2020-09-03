@@ -1,8 +1,21 @@
 public class Main {
 	public static void main(String[] args) {
 		System.out.println("hello, world!");
+		int age = 22; 
+		// ↑変数の初期値
+		System.out.println("私の年齢は" + age );
+		age = 31;
+		System.out.println("わたしの年齢は" + age );
+		int x;
+		// 方の宣言＋変数名を定義
+		x = 10;
+		// 変数に代入する値は記述
 	}
 }
+
+
+
+
 
 // public static void main(String[] args)
 // public static void main(String[] args)
