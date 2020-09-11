@@ -14,8 +14,9 @@ class SwitchBreak {
 			case 2 : System.out.print("C");
 			case 5 : System.out.print("D");
 					 break;
-			case 6 : 
-			case 7 : System.out.print("F");
+			// case 6 : 
+			// case 7 : System.out.print("F");
+			case 6,7 : System.out.print("F");
 					 break;
 			default: System.out.print("G");
 					 break;
