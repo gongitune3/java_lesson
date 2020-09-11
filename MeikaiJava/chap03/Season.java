@@ -13,7 +13,7 @@ class Season {
 			System.out.println("夏です。");
 		else if (month >= 9 && month <= 11)
 			System.out.println("秋です。");
-		else if (month >= 12 && month <= 2)
+		else if (month == 12 || month == 1 || month == 2)
 			System.out.println("冬です。");
 
 
