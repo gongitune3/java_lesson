@@ -19,7 +19,7 @@ class MooSeason {
 			if (month  == 12 || month == 1 || month == 2)
 				System.out.println("それは冬です。");
 			
-				System.out.println("もう一度？ 1...yes/2....no：");
+				System.out.print("もう一度？ 1...yes/2....no：");
 				retry = stdIn.nextInt();
 		} while(retry == 1);
 	}
