@@ -11,7 +11,7 @@ class SwitchSeason {
 			case 3,4,5 	 -> "春";
 			case 6,7,8 	 -> "夏";
 			case 9,10,11 -> "秋";
-			case 12,1,2 -> "冬";
+			case 12,1,2  -> "冬";
 			default		 -> "不明";
 		};
 		System.out.println("季節は" + season + "です。");
