@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class CountDown {
+class CountDown1 {
 	public static void main(String[] args) {
 		Scanner stdIn = new Scanner(System.in);
 
@@ -11,7 +11,7 @@ class CountDown {
 			x = stdIn.nextInt();
 		}while (x <= 0);
 
-		while (x >= 0); {
+		while (x >= 0) {
 			System.out.println(x);
 			x--;
 		}
