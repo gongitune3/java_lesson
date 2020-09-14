@@ -14,15 +14,18 @@ class SumGroup {
 			System.out.println("■第" + i + "グループ");
 			int sum = 0; //グループの小計
 		Inner:
-			for (int j = 0; j < 5; j++)
+			for (int j = 0; j < 5; j++){
 				System.out.print("整数：");
 				int t = stdIn.nextInt();
 				if (t == 9999)
-					break Outer;
+				break Outer;
 				else if (t == 88888)
-					break Inner;
+				break Inner;
 				sum += t;
+			}
+			System.out.println("\n小計は" + sum + "です。");
+			total += sum;
 		}
-		System.out.println("\n小計は" + sum + "です。");
+		System.out.println("\n合計は" + total + "です。");
 	}
 }
