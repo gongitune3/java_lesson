@@ -17,7 +17,7 @@ class Abc {
 
 		System.out.printf("縦横が整数で面積%dの" + 
 						 "長方形の辺の長さ：\n", x);
-
+		
 		for (int i = 1; i < x; i++) {
 			if (i * i > x)	break;
 			if (x % i  != 0  ) continue;
@@ -25,7 +25,7 @@ class Abc {
 		}
 		for (int i = 1; i <= 5; i++)
 			for (int j = 1; j <= 5; j++)
-				System.out.print("");
+				System.out.print("*");
 			System.out.println();
 	}
 }
