@@ -1,4 +1,5 @@
 //配列の全要素に値を読み込んで表示
+//list 6-4
 
 import java.util.Arrays;
 import java.util.Scanner;
