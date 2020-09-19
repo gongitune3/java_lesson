@@ -1,4 +1,5 @@
 //左下が直角二等辺三角形を表示
+//list 7-7
 
 import java.util.Scanner;
 
