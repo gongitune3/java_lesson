@@ -4,6 +4,11 @@ import java.util.Scanner;
 
 class MaxMethod {
 	static int max(int a, int b) {
+		// if (a > b)
+		// 	return a;
+		// else
+		// 	return b;
+		//↑↑returnが複数ある為、分かりにくく不採用
 		return (a > b) ? a : b;
 	}
 
