@@ -19,3 +19,7 @@ class AssingArray {
 		System.out.println("b = " + Arrays.toString(b));
 	}
 }
+
+
+//代入後の配列aとbは、同じものになっている
+//換言すると、代入後の配列変数aとbは、同一の配列本体を参照している
