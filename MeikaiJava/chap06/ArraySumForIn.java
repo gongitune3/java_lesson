@@ -13,6 +13,5 @@ class ArraySumForIn {
 			sum += i;
 
 		System.out.println("全要素の和は" + sum + "です。");
-
 	}
 }
