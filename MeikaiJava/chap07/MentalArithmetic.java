@@ -9,13 +9,31 @@ class MentalArithmetic {
 	static Scanner stdIn = new Scanner(System.in);
 
 	//--続行の確認--//
-	static boolean confirmRetry {
-		int count;
+	static boolean confirmRetry() {
+		int cont;
 		do {
 			System.out.print("もう一度?<Yes…1/No…0>：");
-			count = stdIn.nextInt();
-		}	while (count != 0 && count != 1);
-		return count == 1;		//countが1であればtrun、そうでなければfalseを返す。
+			cont = stdIn.nextInt();
+		} while  (cont != 0 && cont != 1);
+		return cont == 1;		// contが1であればtrue、そうでなければfalseを返す。
 	}
 
+	public static void main(String[] args) {
+		Random rand = new Random();
+
+		System.out.println("暗算トレーニング");
+		do {
+			int x = rand.nextInt(900) + 100;
+			int y = rand.nextInt(900) + 100;
+			int z = rand.nextInt(900) + 100;
+
+			while (true) {
+				System.out.print(x + " + "  + y + " + " + z + " =");
+				int k = stdIn.nextInt();
+				if (k == x + y + z)
+					break;
+				System.out.println("マチガイデゴザイマス");
+			}
+		} while (confirmRetry());
+	}
 }
