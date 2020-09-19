@@ -15,5 +15,12 @@ public static void main(String[] args) {
 	System.out.print("列数：");
 	int w = stdIn.nextInt();
 
+	int[][] x = new int[h][w];
+
+	for (int i = 0; i < h; i++)
+		for (int j = 0; j < w; j++) {
+			x[i][j] = rand.nextInt(100);
+			System.out.println("x[" + i + "][" + j + "] = " + x[i][j] );			
+		}
 	}
 }
