@@ -1,4 +1,5 @@
 //2行3列の行列を加算する。
+//list 6-14
 
 import java.util.Arrays;
 
