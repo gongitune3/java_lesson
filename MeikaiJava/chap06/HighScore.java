@@ -20,5 +20,10 @@ class HighScore {
 			if (tensu[i] > max) max = tensu[i];
 
 		System.out.println("最高点は" + max + " 点です。");
+
+		//最低点を求めると・・・
+		// int min = tensu[0];
+		// for (int i = 1; i < tensu.length; i++)
+		// 	if (tensu[i] < min) min = tensu[i];
 	}
 }
