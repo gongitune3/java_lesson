@@ -1,4 +1,5 @@
 //三つの整数値の最大値を求める(メソッド版)
+//list 7-3
 
 import java.util.Scanner;
 
