@@ -11,6 +11,14 @@ class ShiftOperation {
 	}
 	
 	public static void main(String[] args) {
-		Scanner stdIn = new Scanner(System.out)
+		Scanner stdIn = new Scanner(System.in);
+
+		System.out.print("整数：");					int x = stdIn.nextInt();
+		System.out.print("シフトするビット数：");	int n = stdIn.nextInt();
+
+		System.out.print(	"整数	= ");	printBits(x);
+		System.out.print("\nx << n	= ");	printBits(x << n);
+		System.out.print("\nx >> n	= ");	printBits(x >> n);
+		System.out.print("\nx >>> n	= ");	printBits(x >>> n);
 	}
 }
