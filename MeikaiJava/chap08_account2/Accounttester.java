@@ -1,5 +1,6 @@
 //銀行口座クラス[第２版]とテスト用クラス
 //list 8-3
+
 class Account2 {
 	private String name;	//口座名義
 	private String no;		//口座番号
@@ -58,3 +59,6 @@ class Accounttester {
 		System.out.println("	預金残高：" + nakata.getBalance());
 	}
 }
+
+
+//なんで動かへんの？？？
