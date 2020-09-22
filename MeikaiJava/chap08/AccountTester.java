@@ -12,8 +12,8 @@ class Account {
 
 class AccountTester {
 	public static void main(String[] args) {
-		Account adachi = new Account();		//足立くんの口座
-		Account nakata = new Account();		//仲田くんの口座
+		Account adachi = new Account();		//足立くんの口座------インスタンス化？？
+		Account nakata = new Account();		//仲田くんの口座------仲田がインスタンス名
 
 		adachi.name   = "足立晃一";
 		adachi.no 	  = "123456";
