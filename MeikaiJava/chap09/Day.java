@@ -12,3 +12,10 @@ Day(int year, int month, int date) {
 	this.month 	= month;
 	this.date 	= date;
 }
+
+//--年・月・日を取得
+int getYear(int year) {this.year = year;}
+int getMonth(int month) {this.month = month;}
+int getDate(int date) {this.date = date;}
+
+//--年・月・日を設定
