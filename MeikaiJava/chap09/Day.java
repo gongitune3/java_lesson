@@ -19,3 +19,6 @@ int getMonth(int month) {this.month = month;}
 int getDate(int date) {this.date = date;}
 
 //--年・月・日を設定
+void setYear(int year) {this.year = year;}
+void setMonth(int month) {this.month = month;}
+void setDate(int date) {this.date = date;}
