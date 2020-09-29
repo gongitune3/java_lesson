@@ -22,3 +22,9 @@ int getDate(int date) {this.date = date;}
 void setYear(int year) {this.year = year;}
 void setMonth(int month) {this.month = month;}
 void setDate(int date) {this.date = date;}
+
+void set(int year, int month, int date) {
+	this.year = year;
+	this.month = month;
+	this.date = date;
+}
