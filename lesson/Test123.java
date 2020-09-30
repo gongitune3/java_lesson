@@ -5,13 +5,12 @@ class Test123 {
 		Scanner stdIn = new Scanner(System.in);
 
 		System.out.println("テストを始めます");
-		System.out.println("YES…1/NO…0");
-
+		System.out.print("YES…1/NO…0：：：");
 		int x = stdIn.nextInt();
 
 		if (x == 1)
-			System.out.println("テストを開始します。")
+			System.out.println("テストを開始します。");
 		else
-			System.out.println("………中止します。")
+			System.out.println("………中止します。");
 	}
 }
