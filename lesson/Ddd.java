@@ -9,14 +9,6 @@ class Ddd {
 			c[i] = a[i];
 		return c;
 	}
-}
-
-
-
-
-class ArrayClone {
-	//--配列aの複製を作成して返却--//
-	
 
 	public static void main(String[] args) {
 		Scanner stdIn = new Scanner(System.in);
