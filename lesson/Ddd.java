@@ -1,15 +1,7 @@
 //10/1→github分
-
-class Ddd {
-	public static void main(String[] args) {
-		
-	}
-}
-
-
 import java.util.Scanner;
 
-class ArrayClone {
+class Ddd {
 	//--配列aの複製を作成して返却--//
 	static int[] cloneOf(int[] a) {
 		int[] c = new int[a.length];
@@ -17,6 +9,14 @@ class ArrayClone {
 			c[i] = a[i];
 		return c;
 	}
+}
+
+
+
+
+class ArrayClone {
+	//--配列aの複製を作成して返却--//
+	
 
 	public static void main(String[] args) {
 		Scanner stdIn = new Scanner(System.in);
