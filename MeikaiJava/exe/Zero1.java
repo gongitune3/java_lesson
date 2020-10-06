@@ -9,6 +9,9 @@ class Zero1 {
 		System.out.print("整数値：");
 		int n = stdIn.nextInt();
 
-		
+		if (!(n != 0))
+			System.out.println("その値はゼロです。");
+		else
+			System.out.println("その値はゼロではありません。");
 	}
 }
