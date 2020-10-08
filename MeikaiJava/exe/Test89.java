@@ -10,6 +10,12 @@ class Test89 {
 		System.out.println("a = " + Arrays.toString(a));
 		System.out.println("b = " + Arrays.toString(b));
 
+		if (a.length != b.length)				//要素の数を揃えている
+			b = new int[a.length];
+
+		for (int i = 0; i < a.length; i++)		//配列aの全要素を配列bにコピー
+			b[i] = a[i];
+
 		
 	}
 }
