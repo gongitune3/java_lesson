@@ -11,5 +11,14 @@ class Test998 {
 		return a;
 	}
 	
-	
+	public static void main(String[] args) {
+		Scanner stdIn = new Scanner(System.in);
+
+		System.out.print("要素数：");
+		int n = stdIn.nextInt();
+		int[] x = idxArray(n);
+
+		for (int i = 0; i < n; i++)
+			System.out.println("x[" + i + "] = " + x[i]);
+	}
 }
