@@ -16,7 +16,8 @@ class Test89 {
 		for (int i = 0; i < a.length; i++)		//配列aの全要素を配列bにコピー
 			b[i] = a[i];
 
-		System.out.println("a = " + Arrays.toString(a));
+		System.out.println("a = " + 
+		.toString(a));
 		System.out.println("b = " + Arrays.toString(b));
 	}
 }
