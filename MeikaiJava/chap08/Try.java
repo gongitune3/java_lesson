@@ -9,6 +9,6 @@ class Try {
 		System.out.print("数字を");
 		int num = stdIn.nextInt();
 
-		System.out.println();
+		System.out.println( num );
 	}
 }
