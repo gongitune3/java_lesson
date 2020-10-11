@@ -12,3 +12,5 @@ class Try {
 		System.out.println( num );
 	}
 }
+
+//失敗,,,
