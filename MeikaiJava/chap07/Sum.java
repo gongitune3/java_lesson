@@ -1,5 +1,5 @@
 //整数の総和を求める
-//list 7-19
+//list 7-19→なぜこれは動くのか
 
 import java.util.Scanner;
 
