@@ -11,7 +11,7 @@ class Day {
 		this.month 	= month;
 		this.date 	= date;
 	}
-	
+
 	//--年・月・日を取得
 	int getYear() {return year;}
 	int getMonth() {return month;}

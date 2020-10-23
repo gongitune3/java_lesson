@@ -9,8 +9,8 @@ class BitwseOperation {
 		for (int i = 31; i >= 0; i--)
 			System.out.print(((x >>> i & 1) == 1 ) ? '1' : '0');
 	}
-	
-	public static void main(String[] args) {
+
+		public static void main(String[] args) {
 		Scanner stdIn = new Scanner(System.in);
 
 		System.out.println("二つの整数を入力してください。");
