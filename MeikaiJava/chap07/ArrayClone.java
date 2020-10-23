@@ -11,7 +11,6 @@ class ArrayClone {
 			c[i] = a[i];
 		return c;
 	}
-
 	public static void main(String[] args) {
 		Scanner stdIn = new Scanner(System.in);
 
