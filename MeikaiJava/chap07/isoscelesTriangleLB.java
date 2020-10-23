@@ -8,7 +8,7 @@ class isoscelesTriangleLB {
 		while (n-- > 0)
 			System.out.print('*');
 	}
-	
+
 	public static void main(String[] args) {
 		Scanner stdIn = new Scanner(System.in);
 
@@ -24,3 +24,4 @@ class isoscelesTriangleLB {
 }
 
 //値を返却しないメソッドの返却型は、voidと宣言する
+//こっちは動くなぜか

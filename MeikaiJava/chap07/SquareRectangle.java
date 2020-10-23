@@ -17,7 +17,7 @@ class SquareRectangle {
 			System.out.println();		//・改行
 		}
 	}
-	
+
 	static void putRectangle(int h, int w) {
 		for (int i = 1; i <= h; i++) {
 			putChars('*', w);
