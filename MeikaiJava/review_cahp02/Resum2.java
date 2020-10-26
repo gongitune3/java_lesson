@@ -5,3 +5,5 @@ public class Resum2 {
 		System.out.println("57 + 32 = " + ( 57 + 32) );
 	}
 }
+
+//なぜ検出できない？？？
