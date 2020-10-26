@@ -4,7 +4,8 @@
 import java.util.Scanner;
 
 class isoscelesTriangleLB {
-	static void putStars(int n) {
+	static void putStars(int n) 
+	
 		while (n-- > 0)
 			System.out.print('*');
 	}
